@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Seth George's Portfolio</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="css/grayscale.css" rel="stylesheet">
+
+		<!-- Custom Fonts -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top">
+						<i class="fa fa-play-circle"></i>
+						<span class="light">Seth</span> George
+					</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+					<ul class="nav navbar-nav">
+						<!-- Hidden li included to remove active class from about link
+							 when scrolled up past about section -->
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">About</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#projects">Projects</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Intro Header -->
+		<header class="intro">
+			<div class="intro-body">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="brand-heading">Seth George</h1>
+							<a href="#about" class="btn btn-circle page-scroll">
+								<i class="fa fa-angle-double-down animated"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<!-- About Section -->
+		<section id="about" class="container content-section text-center">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+
+					<h2>About Me</h2>
+					<p>
+						Hello, my name is Seth. I have two Bachelors of Science degrees,
+						Software Engineering and Cognitive Psychology, from Iowa State University.
+						I'm interested in VR, making games, and other projects that sound like they belong
+						in Sci-Fi movies. Let's make some cool stuff together.</br>
+					</p>
+					<!--
+					<h2>Résumé and Credentials</h2>
+					-->
+					<ul class="list-inline banner-social-buttons">
+						<li>
+							<a href="app-mats/SethGeorge_Resume.pdf" class="btn btn-default btn-lg">PDF</a>
+						</li>
+						<li>
+							<a href="https://docs.google.com/document/d/1nXZfWdL39DmjAgtrkrDnXjLPG3ntoBYYVyPedVs06Eg/edit?usp=sharing" class="btn btn-default btn-lg">Google Doc</a>
+						</li>
+						<li>
+							<a href="https://dl.acm.org/citation.cfm?id=3165285" class="btn btn-default btn-lg">VR Publication</a>
+						</li>
+					</ul>
+					<!--
+					<a href="#projects" class="btn btn-circle page-scroll">
+						<i class="fa fa-angle-double-down animated"></i>
+					</a>
+					-->
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects Section -->
+		<section id="projects" class="content-section text-center">
+			<div class="projects-section">
+				<div class="container">
+
+					<h2>Projects</h2>
+					<div class="row">
+						<div class="col-sm-6">
+							<a href="vibeblind.github.io/water/" class="btn btn-default btn-lg">WebGL Scene</a>
+							<p>
+								This project is used to teach myself about Three.js and graphics. I am planning on adding
+								a lot more to it in regards of the lighting effects. Assets are taken from
+								Three.js or other open source communities. I do not claim to have made these textures, etc.
+							</p>
+						</div>
+						<div class="col-sm-6">
+							<a href="https://www.youtube.com/watch?v=AJC8lozNTlI" class="btn btn-default btn-lg">EEG Mind Maze</a>
+							<p>
+								The goal was to use an EEG to register certain brain
+								wave patterns to as event triggers. We can then use those triggers to
+								allow the user to navigate through a randomly generated 3D maze by
+								thinking a direction. I learned how to use QT/QML, and how to use it
+								in conjunction with OpenGL.
+							</p>
+						</div>
+
+						<div class="col-sm-6">
+							<a href="videos/MarsRover.mp4" class="btn btn-default btn-lg">Mars Rover</a>
+							<p>
+								The goal was to navigate through an obstacle course using only what we
+								programmed the robot to recognize via sensors. We also implements a
+								makeshift GUI of ASCII characters to display what the robot saw on a console.
+								This project taught me about pointers, bit shifting, and events.
+							</p>
+						</div>
+						<!--div class="col-sm-6">
+							<a href="hexgrid/index.html" class="btn btn-default btn-lg">Hex Grid</a>
+							<p>
+								This is a work in progress for a game using a hex grid. The intention
+								is to allow for maps to be procedurally generated and played to make 
+								storys for table top RPGS like D&D. The bulk of the code is about
+								triangulating the mesh and perturbing vertices with perlin noise.
+								Credit goes to Catlike Coding and Red Blob Games for their tutorials
+								on hex grids.
+							</p>
+						</div>
+					<!--a href="#contact" class="btn btn-circle page-scroll">
+						<i class="fa fa-angle-double-down animated"></i>
+					</a-->
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="container content-section text-center">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+
+					<h2>Contact Me</h2>
+					<p>Feel free to contact me about job offers, fun projects, or just to say hello!</p>
+					<ul class="list-inline banner-social-buttons">
+						<li>
+							<a href="https://www.linkedin.com/in/sethg13" class="btn btn-default btn-lg">
+								<i class="fa fa-linkedin fa-fw"></i>
+								<span class="network-name">Linkedin</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/sethg13" class="btn btn-default btn-lg">
+								<i class="fa fa-github fa-fw"></i>
+								<span class="network-name">Github</span>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:sethg13@gmail.com" class="btn btn-default btn-lg">E-mail</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="js/jquery.easing.min.js"></script>
+
+		<!-- Custom Theme JavaScript -->
+		<script src="js/grayscale.js"></script>
+
+	</body>
+
+</html>
